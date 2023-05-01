@@ -1,0 +1,21 @@
+{
+    "name": "mina/utest",
+    "description": "hello",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^10.1"
+    },
+    "license": "2023",
+    "autoload": {
+        "psr-4": {
+            "Min\\Utest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MinaNasserGabAllah",
+            "email": "minanassergaballah@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
